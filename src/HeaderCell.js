@@ -11,7 +11,6 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
   TouchableOpacity,
 } from 'react-native';
 
@@ -80,7 +79,7 @@ export function HeaderCell(props) {
 HeaderCell.propTypes = {
   isSelected: PropTypes.bool,
   isAscending: PropTypes.bool,
-  style: ViewPropTypes.style,
+ 
   textStyle: Text.propTypes.style,
   width: PropTypes.number,
   onPress: PropTypes.func,
@@ -96,7 +95,7 @@ const defaultStyles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-between'
   },
   icon: {
     marginRight: 10,

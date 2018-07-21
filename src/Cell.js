@@ -11,7 +11,6 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
 } from 'react-native';
 
 /**
@@ -45,8 +44,7 @@ export function Cell(props) {
 }
 
 Cell.propTypes = {
-  ...ViewPropTypes,
-  style: ViewPropTypes.style,
+ 
   textStyle: Text.propTypes.style,
   width: PropTypes.number,
   children: PropTypes.any,

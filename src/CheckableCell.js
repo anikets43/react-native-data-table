@@ -82,7 +82,7 @@ export class CheckableCell extends React.Component {
 }
 
 CheckableCell.propTypes = {
-  style: ViewPropTypes.style,
+ 
   width: PropTypes.number,
   onPress: PropTypes.func,
   renderDisabled: PropTypes.func,

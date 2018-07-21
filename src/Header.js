@@ -10,7 +10,6 @@ import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View,
-  ViewPropTypes,
 } from 'react-native';
 
 export function Header(props) {
@@ -23,14 +22,14 @@ export function Header(props) {
 }
 
 Header.propTypes = {
-  style: ViewPropTypes.style,
+ 
   children: PropTypes.any,
 };
 
 const defaultStyles = StyleSheet.create({
   header: {
     flexDirection: 'row',
-    flexWrap: 'nowrap',
+  //  flexWrap: 'nowrap',
     backgroundColor: 'grey',
   },
 });
